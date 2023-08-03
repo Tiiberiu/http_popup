@@ -1,6 +1,5 @@
-# http_popup
 ## Utility
-I used it in the pre request script in postman because it does not allow manual inputs and the http server has a 15 minute timeout.
+I used it in the postman postman-pre-request.js, this way you can input parameters when running collection and it will wait 15 minutes (as per http server timeout) for input.
 
 ## Build
 I used this command to create a binary: `pyinstaller -w -F -i .\popups.ico .\http_popup.py`
